@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A1958117EDDA8309836C287 /* libPods-pastrel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 691EB80530F5EDB0E36BDF5A /* libPods-pastrel.a */; };
+		DE0512511B5AE8990021FB4B /* InterfaceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0512501B5AE8990021FB4B /* InterfaceWindowController.m */; };
+		DE0512531B5AE8AD0021FB4B /* PrimaryInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE0512521B5AE8AD0021FB4B /* PrimaryInterface.xib */; };
+		DE259B001B5B017B00A4A251 /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = DE259AFF1B5B017B00A4A251 /* Notification.m */; };
+		DE259B061B5B338500A4A251 /* menu-bar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE259B051B5B338500A4A251 /* menu-bar-icon.png */; };
+		DE259B081B5B347300A4A251 /* menu-bar-icon-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = DE259B071B5B347300A4A251 /* menu-bar-icon-alt.png */; };
+		DE259B131B5C25CA00A4A251 /* KeyMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = DE259B121B5C25CA00A4A251 /* KeyMonitor.m */; };
+		DE4EBD551B8505E400FC2095 /* JobNumbersController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4EBD541B8505E400FC2095 /* JobNumbersController.m */; };
+		DE4EBD581B850C0700FC2095 /* JobNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4EBD571B850C0700FC2095 /* JobNumber.m */; };
+		DE5B441A1B8638D30044349F /* TimeEntryWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B44181B8638D30044349F /* TimeEntryWindowController.m */; };
+		DE5B441B1B8638D30044349F /* TimeEntryWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5B44191B8638D30044349F /* TimeEntryWindowController.xib */; };
+		DE5B441E1B864AB60044349F /* ChromelessWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B441D1B864AB60044349F /* ChromelessWindow.m */; };
+		DE5B44241B8668770044349F /* JobNumberView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5B44231B8668770044349F /* JobNumberView.xib */; };
+		DE68D6E91B599B6B00B42578 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE68D6E81B599B6B00B42578 /* AppDelegate.m */; };
+		DE68D6EB1B599B6B00B42578 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE68D6EA1B599B6B00B42578 /* main.m */; };
+		DE68D6ED1B599B6B00B42578 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE68D6EC1B599B6B00B42578 /* Images.xcassets */; };
+		DE68D6FC1B599B6B00B42578 /* pastrelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE68D6FB1B599B6B00B42578 /* pastrelTests.m */; };
+		DE6CE7181B866D0E006471CF /* JobNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6CE7171B866D0E006471CF /* JobNumberViewController.m */; };
+		DE6CE71D1B8687D4006471CF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE6CE71C1B8687D4006471CF /* MainMenu.xib */; };
+		DE7C196E1B59B67C00D161B9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DE7C196D1B59B67C00D161B9 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE68D6F61B599B6B00B42578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE68D6DA1B599B6B00B42578 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE68D6E11B599B6B00B42578;
+			remoteInfo = pastrel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075E92EB9D52474AC22D414E /* Pods-pastrel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pastrel.release.xcconfig"; path = "Pods/Target Support Files/Pods-pastrel/Pods-pastrel.release.xcconfig"; sourceTree = "<group>"; };
+		691EB80530F5EDB0E36BDF5A /* libPods-pastrel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pastrel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEC0276CE0882B25C88DE54 /* Pods-pastrel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pastrel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pastrel/Pods-pastrel.debug.xcconfig"; sourceTree = "<group>"; };
+		DE05124F1B5AE8990021FB4B /* InterfaceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceWindowController.h; sourceTree = "<group>"; };
+		DE0512501B5AE8990021FB4B /* InterfaceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceWindowController.m; sourceTree = "<group>"; };
+		DE0512521B5AE8AD0021FB4B /* PrimaryInterface.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrimaryInterface.xib; sourceTree = "<group>"; };
+		DE259AFE1B5B017B00A4A251 /* Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
+		DE259AFF1B5B017B00A4A251 /* Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notification.m; sourceTree = "<group>"; };
+		DE259B051B5B338500A4A251 /* menu-bar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu-bar-icon.png"; path = "Images.xcassets/menu-bar-icon.png"; sourceTree = "<group>"; };
+		DE259B071B5B347300A4A251 /* menu-bar-icon-alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu-bar-icon-alt.png"; path = "Images.xcassets/menu-bar-icon-alt.png"; sourceTree = "<group>"; };
+		DE259B111B5C25CA00A4A251 /* KeyMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyMonitor.h; sourceTree = "<group>"; };
+		DE259B121B5C25CA00A4A251 /* KeyMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyMonitor.m; sourceTree = "<group>"; };
+		DE4EBD531B8505E400FC2095 /* JobNumbersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobNumbersController.h; sourceTree = "<group>"; };
+		DE4EBD541B8505E400FC2095 /* JobNumbersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobNumbersController.m; sourceTree = "<group>"; };
+		DE4EBD561B850C0700FC2095 /* JobNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobNumber.h; sourceTree = "<group>"; };
+		DE4EBD571B850C0700FC2095 /* JobNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobNumber.m; sourceTree = "<group>"; };
+		DE5B44171B8638D30044349F /* TimeEntryWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeEntryWindowController.h; sourceTree = "<group>"; };
+		DE5B44181B8638D30044349F /* TimeEntryWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeEntryWindowController.m; sourceTree = "<group>"; };
+		DE5B44191B8638D30044349F /* TimeEntryWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeEntryWindowController.xib; sourceTree = "<group>"; };
+		DE5B441C1B864AB60044349F /* ChromelessWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChromelessWindow.h; sourceTree = "<group>"; };
+		DE5B441D1B864AB60044349F /* ChromelessWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChromelessWindow.m; sourceTree = "<group>"; };
+		DE5B44231B8668770044349F /* JobNumberView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobNumberView.xib; sourceTree = "<group>"; };
+		DE68D6E21B599B6B00B42578 /* pastrel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pastrel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE68D6E61B599B6B00B42578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE68D6E71B599B6B00B42578 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE68D6E81B599B6B00B42578 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE68D6EA1B599B6B00B42578 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE68D6EC1B599B6B00B42578 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = pastrel/Images.xcassets; sourceTree = "<group>"; };
+		DE68D6F51B599B6B00B42578 /* pastrelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pastrelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE68D6FA1B599B6B00B42578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE68D6FB1B599B6B00B42578 /* pastrelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pastrelTests.m; sourceTree = "<group>"; };
+		DE6CE7161B866D0E006471CF /* JobNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobNumberViewController.h; sourceTree = "<group>"; };
+		DE6CE7171B866D0E006471CF /* JobNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobNumberViewController.m; sourceTree = "<group>"; };
+		DE6CE71C1B8687D4006471CF /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		DE7C196D1B59B67C00D161B9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE68D6DF1B599B6B00B42578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1958117EDDA8309836C287 /* libPods-pastrel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE68D6F21B599B6B00B42578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E8AD12AB3262E31C1C676D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				691EB80530F5EDB0E36BDF5A /* libPods-pastrel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		943B7990A5E4565BB24592DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CEC0276CE0882B25C88DE54 /* Pods-pastrel.debug.xcconfig */,
+				075E92EB9D52474AC22D414E /* Pods-pastrel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE259B101B5B42A400A4A251 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DE259B051B5B338500A4A251 /* menu-bar-icon.png */,
+				DE259B071B5B347300A4A251 /* menu-bar-icon-alt.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		DE259B1A1B5C43DA00A4A251 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				DE4EBD561B850C0700FC2095 /* JobNumber.h */,
+				DE4EBD571B850C0700FC2095 /* JobNumber.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		DE259B1B1B5C440A00A4A251 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE4EBD531B8505E400FC2095 /* JobNumbersController.h */,
+				DE4EBD541B8505E400FC2095 /* JobNumbersController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		DE5B441F1B8654CA0044349F /* interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				DE6CE71C1B8687D4006471CF /* MainMenu.xib */,
+				DE5B44231B8668770044349F /* JobNumberView.xib */,
+				DE0512521B5AE8AD0021FB4B /* PrimaryInterface.xib */,
+				DE5B44191B8638D30044349F /* TimeEntryWindowController.xib */,
+			);
+			name = interfaces;
+			sourceTree = "<group>";
+		};
+		DE5B44201B8654D20044349F /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B441C1B864AB60044349F /* ChromelessWindow.h */,
+				DE5B441D1B864AB60044349F /* ChromelessWindow.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		DE5B44221B8655510044349F /* event-emitters */ = {
+			isa = PBXGroup;
+			children = (
+				DE259B111B5C25CA00A4A251 /* KeyMonitor.h */,
+				DE259B121B5C25CA00A4A251 /* KeyMonitor.m */,
+				DE259AFE1B5B017B00A4A251 /* Notification.h */,
+				DE259AFF1B5B017B00A4A251 /* Notification.m */,
+			);
+			name = "event-emitters";
+			sourceTree = "<group>";
+		};
+		DE68D6D91B599B6B00B42578 = {
+			isa = PBXGroup;
+			children = (
+				DE7C196D1B59B67C00D161B9 /* Podfile */,
+				DE68D6E41B599B6B00B42578 /* pastrel */,
+				DE68D6E51B599B6B00B42578 /* Supporting Files */,
+				DE68D6EC1B599B6B00B42578 /* Images.xcassets */,
+				DE68D6F81B599B6B00B42578 /* pastrelTests */,
+				DE68D6E31B599B6B00B42578 /* Products */,
+				943B7990A5E4565BB24592DD /* Pods */,
+				1E8AD12AB3262E31C1C676D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE68D6E31B599B6B00B42578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE68D6E21B599B6B00B42578 /* pastrel.app */,
+				DE68D6F51B599B6B00B42578 /* pastrelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE68D6E41B599B6B00B42578 /* pastrel */ = {
+			isa = PBXGroup;
+			children = (
+				DE68D6E71B599B6B00B42578 /* AppDelegate.h */,
+				DE68D6E81B599B6B00B42578 /* AppDelegate.m */,
+				DE6CE7191B866D1E006471CF /* view-controllers */,
+				DE5B44221B8655510044349F /* event-emitters */,
+				DE259B1B1B5C440A00A4A251 /* controllers */,
+				DE259B1A1B5C43DA00A4A251 /* models */,
+				DE259B101B5B42A400A4A251 /* images */,
+				DE5B441F1B8654CA0044349F /* interfaces */,
+				DE5B44201B8654D20044349F /* utils */,
+			);
+			path = pastrel;
+			sourceTree = "<group>";
+		};
+		DE68D6E51B599B6B00B42578 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE68D6E61B599B6B00B42578 /* Info.plist */,
+				DE68D6EA1B599B6B00B42578 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = pastrel;
+			sourceTree = "<group>";
+		};
+		DE68D6F81B599B6B00B42578 /* pastrelTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE68D6FB1B599B6B00B42578 /* pastrelTests.m */,
+				DE68D6F91B599B6B00B42578 /* Supporting Files */,
+			);
+			path = pastrelTests;
+			sourceTree = "<group>";
+		};
+		DE68D6F91B599B6B00B42578 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE68D6FA1B599B6B00B42578 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE6CE7191B866D1E006471CF /* view-controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE6CE7161B866D0E006471CF /* JobNumberViewController.h */,
+				DE6CE7171B866D0E006471CF /* JobNumberViewController.m */,
+				DE5B44171B8638D30044349F /* TimeEntryWindowController.h */,
+				DE5B44181B8638D30044349F /* TimeEntryWindowController.m */,
+				DE05124F1B5AE8990021FB4B /* InterfaceWindowController.h */,
+				DE0512501B5AE8990021FB4B /* InterfaceWindowController.m */,
+			);
+			name = "view-controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE68D6E11B599B6B00B42578 /* pastrel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE68D6FF1B599B6B00B42578 /* Build configuration list for PBXNativeTarget "pastrel" */;
+			buildPhases = (
+				D0568DE85F99F047D1F0C975 /* Check Pods Manifest.lock */,
+				DE68D6DE1B599B6B00B42578 /* Sources */,
+				DE68D6DF1B599B6B00B42578 /* Frameworks */,
+				DE68D6E01B599B6B00B42578 /* Resources */,
+				F08BF8CA70D6B9051DAD811F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pastrel;
+			productName = pastrel;
+			productReference = DE68D6E21B599B6B00B42578 /* pastrel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE68D6F41B599B6B00B42578 /* pastrelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE68D7021B599B6B00B42578 /* Build configuration list for PBXNativeTarget "pastrelTests" */;
+			buildPhases = (
+				DE68D6F11B599B6B00B42578 /* Sources */,
+				DE68D6F21B599B6B00B42578 /* Frameworks */,
+				DE68D6F31B599B6B00B42578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE68D6F71B599B6B00B42578 /* PBXTargetDependency */,
+			);
+			name = pastrelTests;
+			productName = pastrelTests;
+			productReference = DE68D6F51B599B6B00B42578 /* pastrelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE68D6DA1B599B6B00B42578 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Joe Longstreet";
+				TargetAttributes = {
+					DE68D6E11B599B6B00B42578 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DE68D6F41B599B6B00B42578 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DE68D6E11B599B6B00B42578;
+					};
+				};
+			};
+			buildConfigurationList = DE68D6DD1B599B6B00B42578 /* Build configuration list for PBXProject "pastrel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE68D6D91B599B6B00B42578;
+			productRefGroup = DE68D6E31B599B6B00B42578 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE68D6E11B599B6B00B42578 /* pastrel */,
+				DE68D6F41B599B6B00B42578 /* pastrelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE68D6E01B599B6B00B42578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7C196E1B59B67C00D161B9 /* Podfile in Resources */,
+				DE259B081B5B347300A4A251 /* menu-bar-icon-alt.png in Resources */,
+				DE5B44241B8668770044349F /* JobNumberView.xib in Resources */,
+				DE259B061B5B338500A4A251 /* menu-bar-icon.png in Resources */,
+				DE68D6ED1B599B6B00B42578 /* Images.xcassets in Resources */,
+				DE0512531B5AE8AD0021FB4B /* PrimaryInterface.xib in Resources */,
+				DE5B441B1B8638D30044349F /* TimeEntryWindowController.xib in Resources */,
+				DE6CE71D1B8687D4006471CF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE68D6F31B599B6B00B42578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0568DE85F99F047D1F0C975 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F08BF8CA70D6B9051DAD811F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pastrel/Pods-pastrel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE68D6DE1B599B6B00B42578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5B441E1B864AB60044349F /* ChromelessWindow.m in Sources */,
+				DE6CE7181B866D0E006471CF /* JobNumberViewController.m in Sources */,
+				DE259B001B5B017B00A4A251 /* Notification.m in Sources */,
+				DE259B131B5C25CA00A4A251 /* KeyMonitor.m in Sources */,
+				DE68D6EB1B599B6B00B42578 /* main.m in Sources */,
+				DE5B441A1B8638D30044349F /* TimeEntryWindowController.m in Sources */,
+				DE68D6E91B599B6B00B42578 /* AppDelegate.m in Sources */,
+				DE4EBD551B8505E400FC2095 /* JobNumbersController.m in Sources */,
+				DE0512511B5AE8990021FB4B /* InterfaceWindowController.m in Sources */,
+				DE4EBD581B850C0700FC2095 /* JobNumber.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE68D6F11B599B6B00B42578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE68D6FC1B599B6B00B42578 /* pastrelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE68D6F71B599B6B00B42578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE68D6E11B599B6B00B42578 /* pastrel */;
+			targetProxy = DE68D6F61B599B6B00B42578 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE68D6FD1B599B6B00B42578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DE68D6FE1B599B6B00B42578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DE68D7001B599B6B00B42578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CEC0276CE0882B25C88DE54 /* Pods-pastrel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = pastrel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = pastrel;
+			};
+			name = Debug;
+		};
+		DE68D7011B599B6B00B42578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075E92EB9D52474AC22D414E /* Pods-pastrel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = pastrel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = pastrel;
+			};
+			name = Release;
+		};
+		DE68D7031B599B6B00B42578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = pastrelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = pastrelTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pastrel.app/Contents/MacOS/pastrel";
+			};
+			name = Debug;
+		};
+		DE68D7041B599B6B00B42578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = pastrelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = pastrelTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pastrel.app/Contents/MacOS/pastrel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE68D6DD1B599B6B00B42578 /* Build configuration list for PBXProject "pastrel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE68D6FD1B599B6B00B42578 /* Debug */,
+				DE68D6FE1B599B6B00B42578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE68D6FF1B599B6B00B42578 /* Build configuration list for PBXNativeTarget "pastrel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE68D7001B599B6B00B42578 /* Debug */,
+				DE68D7011B599B6B00B42578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE68D7021B599B6B00B42578 /* Build configuration list for PBXNativeTarget "pastrelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE68D7031B599B6B00B42578 /* Debug */,
+				DE68D7041B599B6B00B42578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE68D6DA1B599B6B00B42578 /* Project object */;
+}
