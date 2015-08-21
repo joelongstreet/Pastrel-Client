@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9A1958117EDDA8309836C287 /* libPods-pastrel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 691EB80530F5EDB0E36BDF5A /* libPods-pastrel.a */; };
-		DE0512511B5AE8990021FB4B /* InterfaceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0512501B5AE8990021FB4B /* InterfaceWindowController.m */; };
-		DE0512531B5AE8AD0021FB4B /* PrimaryInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE0512521B5AE8AD0021FB4B /* PrimaryInterface.xib */; };
+		DE0512511B5AE8990021FB4B /* SettingsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0512501B5AE8990021FB4B /* SettingsWindowController.m */; };
+		DE0512531B5AE8AD0021FB4B /* SettingsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE0512521B5AE8AD0021FB4B /* SettingsWindow.xib */; };
 		DE259B001B5B017B00A4A251 /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = DE259AFF1B5B017B00A4A251 /* Notification.m */; };
 		DE259B061B5B338500A4A251 /* menu-bar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE259B051B5B338500A4A251 /* menu-bar-icon.png */; };
 		DE259B081B5B347300A4A251 /* menu-bar-icon-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = DE259B071B5B347300A4A251 /* menu-bar-icon-alt.png */; };
@@ -17,7 +17,7 @@
 		DE4EBD551B8505E400FC2095 /* JobNumbersController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4EBD541B8505E400FC2095 /* JobNumbersController.m */; };
 		DE4EBD581B850C0700FC2095 /* JobNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4EBD571B850C0700FC2095 /* JobNumber.m */; };
 		DE5B441A1B8638D30044349F /* TimeEntryWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B44181B8638D30044349F /* TimeEntryWindowController.m */; };
-		DE5B441B1B8638D30044349F /* TimeEntryWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5B44191B8638D30044349F /* TimeEntryWindowController.xib */; };
+		DE5B441B1B8638D30044349F /* TimeEntryWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5B44191B8638D30044349F /* TimeEntryWindow.xib */; };
 		DE5B441E1B864AB60044349F /* ChromelessWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B441D1B864AB60044349F /* ChromelessWindow.m */; };
 		DE5B44241B8668770044349F /* JobNumberView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5B44231B8668770044349F /* JobNumberView.xib */; };
 		DE68D6E91B599B6B00B42578 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE68D6E81B599B6B00B42578 /* AppDelegate.m */; };
@@ -43,9 +43,9 @@
 		075E92EB9D52474AC22D414E /* Pods-pastrel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pastrel.release.xcconfig"; path = "Pods/Target Support Files/Pods-pastrel/Pods-pastrel.release.xcconfig"; sourceTree = "<group>"; };
 		691EB80530F5EDB0E36BDF5A /* libPods-pastrel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pastrel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CEC0276CE0882B25C88DE54 /* Pods-pastrel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pastrel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pastrel/Pods-pastrel.debug.xcconfig"; sourceTree = "<group>"; };
-		DE05124F1B5AE8990021FB4B /* InterfaceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceWindowController.h; sourceTree = "<group>"; };
-		DE0512501B5AE8990021FB4B /* InterfaceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceWindowController.m; sourceTree = "<group>"; };
-		DE0512521B5AE8AD0021FB4B /* PrimaryInterface.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrimaryInterface.xib; sourceTree = "<group>"; };
+		DE05124F1B5AE8990021FB4B /* SettingsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsWindowController.h; sourceTree = "<group>"; };
+		DE0512501B5AE8990021FB4B /* SettingsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsWindowController.m; sourceTree = "<group>"; };
+		DE0512521B5AE8AD0021FB4B /* SettingsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsWindow.xib; sourceTree = "<group>"; };
 		DE259AFE1B5B017B00A4A251 /* Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
 		DE259AFF1B5B017B00A4A251 /* Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notification.m; sourceTree = "<group>"; };
 		DE259B051B5B338500A4A251 /* menu-bar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu-bar-icon.png"; path = "Images.xcassets/menu-bar-icon.png"; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		DE4EBD571B850C0700FC2095 /* JobNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobNumber.m; sourceTree = "<group>"; };
 		DE5B44171B8638D30044349F /* TimeEntryWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeEntryWindowController.h; sourceTree = "<group>"; };
 		DE5B44181B8638D30044349F /* TimeEntryWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeEntryWindowController.m; sourceTree = "<group>"; };
-		DE5B44191B8638D30044349F /* TimeEntryWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeEntryWindowController.xib; sourceTree = "<group>"; };
+		DE5B44191B8638D30044349F /* TimeEntryWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeEntryWindow.xib; sourceTree = "<group>"; };
 		DE5B441C1B864AB60044349F /* ChromelessWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChromelessWindow.h; sourceTree = "<group>"; };
 		DE5B441D1B864AB60044349F /* ChromelessWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChromelessWindow.m; sourceTree = "<group>"; };
 		DE5B44231B8668770044349F /* JobNumberView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobNumberView.xib; sourceTree = "<group>"; };
@@ -145,8 +145,8 @@
 			children = (
 				DE6CE71C1B8687D4006471CF /* MainMenu.xib */,
 				DE5B44231B8668770044349F /* JobNumberView.xib */,
-				DE0512521B5AE8AD0021FB4B /* PrimaryInterface.xib */,
-				DE5B44191B8638D30044349F /* TimeEntryWindowController.xib */,
+				DE0512521B5AE8AD0021FB4B /* SettingsWindow.xib */,
+				DE5B44191B8638D30044349F /* TimeEntryWindow.xib */,
 			);
 			name = interfaces;
 			sourceTree = "<group>";
@@ -244,8 +244,8 @@
 				DE6CE7171B866D0E006471CF /* JobNumberViewController.m */,
 				DE5B44171B8638D30044349F /* TimeEntryWindowController.h */,
 				DE5B44181B8638D30044349F /* TimeEntryWindowController.m */,
-				DE05124F1B5AE8990021FB4B /* InterfaceWindowController.h */,
-				DE0512501B5AE8990021FB4B /* InterfaceWindowController.m */,
+				DE05124F1B5AE8990021FB4B /* SettingsWindowController.h */,
+				DE0512501B5AE8990021FB4B /* SettingsWindowController.m */,
 			);
 			name = "view-controllers";
 			sourceTree = "<group>";
@@ -337,8 +337,8 @@
 				DE5B44241B8668770044349F /* JobNumberView.xib in Resources */,
 				DE259B061B5B338500A4A251 /* menu-bar-icon.png in Resources */,
 				DE68D6ED1B599B6B00B42578 /* Images.xcassets in Resources */,
-				DE0512531B5AE8AD0021FB4B /* PrimaryInterface.xib in Resources */,
-				DE5B441B1B8638D30044349F /* TimeEntryWindowController.xib in Resources */,
+				DE0512531B5AE8AD0021FB4B /* SettingsWindow.xib in Resources */,
+				DE5B441B1B8638D30044349F /* TimeEntryWindow.xib in Resources */,
 				DE6CE71D1B8687D4006471CF /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,7 +398,7 @@
 				DE5B441A1B8638D30044349F /* TimeEntryWindowController.m in Sources */,
 				DE68D6E91B599B6B00B42578 /* AppDelegate.m in Sources */,
 				DE4EBD551B8505E400FC2095 /* JobNumbersController.m in Sources */,
-				DE0512511B5AE8990021FB4B /* InterfaceWindowController.m in Sources */,
+				DE0512511B5AE8990021FB4B /* SettingsWindowController.m in Sources */,
 				DE4EBD581B850C0700FC2095 /* JobNumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

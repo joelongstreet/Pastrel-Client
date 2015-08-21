@@ -10,7 +10,7 @@
 #import "ApplicationServices/ApplicationServices.h"
 #import "MASShortcut/Shortcut.h"
 #import "Notification.h"
-#import "InterfaceWindowController.h"
+#import "SettingsWindowController.h"
 #import "KeyMonitor.h"
 #import "JobNumbersController.h"
 #import "JobNumber.h"
@@ -22,7 +22,7 @@ static BOOL IMMEDIATELY_SHOW_INTERFACE_ON_SHORTCUT = YES;
 
 @interface AppDelegate () <KeyMonitorDelegate>
 @property (strong, nonatomic) NSStatusItem *statusItem;
-@property (strong) InterfaceWindowController* interfaceWindowController;
+@property (strong) SettingsWindowController* settingsWindowController;
 @property (strong) TimeEntryWindowController* timeEntryWindowController;
 @property (strong) KeyMonitor *keyMonitor;
 @property (strong) JobNumbersController *jobNumbersController;
@@ -61,9 +61,9 @@ static BOOL IMMEDIATELY_SHOW_INTERFACE_ON_SHORTCUT = YES;
 
 // open the primary interface when the icon is clicked
 - (void) openPrimaryInterface:(id) sender{
-    self.interfaceWindowController = [[InterfaceWindowController alloc] initWithWindowNibName:@"PrimaryInterface"];
-    self.interfaceWindowController.shortcutName = shortcutName;
-    [self.interfaceWindowController showWindow:nil];
+    self.settingsWindowController = [[SettingsWindowController alloc] initWithWindowNibName:@"SettingsWindow"];
+    self.settingsWindowController.shortcutName = shortcutName;
+    [self.settingsWindowController showWindow:nil];
 }
 
 
@@ -74,7 +74,7 @@ static BOOL IMMEDIATELY_SHOW_INTERFACE_ON_SHORTCUT = YES;
 
     // should we show the time entry interface or use the key monitor
     if(IMMEDIATELY_SHOW_INTERFACE_ON_SHORTCUT){
-        self.timeEntryWindowController = [[TimeEntryWindowController alloc] initWithWindowNibName:@"TimeEntryWindowController"];
+        self.timeEntryWindowController = [[TimeEntryWindowController alloc] initWithWindowNibName:@"TimeEntryWindow"];
         [self.timeEntryWindowController showWindow:nil];
         [NSApp activateIgnoringOtherApps:YES];
         self.timeEntryWindowController.jobNumbersController = self.jobNumbersController;

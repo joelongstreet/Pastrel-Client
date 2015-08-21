@@ -6,14 +6,14 @@
 //  Copyright (c) 2015 Joe Longstreet. All rights reserved.
 //
 
-#import "InterfaceWindowController.h"
+#import "SettingsWindowController.h"
 #import "MASShortcut/MASShortcutView+Bindings.h"
 
-@interface InterfaceWindowController ()
+@interface SettingsWindowController ()
 @property (nonatomic, weak) IBOutlet MASShortcutView *shortcutView;
 @end
 
-@implementation InterfaceWindowController
+@implementation SettingsWindowController
 
 
 - (void)windowDidLoad {

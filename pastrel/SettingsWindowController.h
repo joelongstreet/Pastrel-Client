@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface InterfaceWindowController : NSWindowController
+@interface SettingsWindowController : NSWindowController
 @property (readwrite) NSPoint coordinates;
 @property (readwrite) NSString* shortcutName;
 @end
